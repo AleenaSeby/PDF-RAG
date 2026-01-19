@@ -47,8 +47,10 @@ python -m streamlit run "path\app.py"
 - .env — API key(s) (GROQ_API_KEY).
 - doc_vectorstore/ — persisted Chroma DB (chroma.sqlite3 + data folders).
 
+
 ## Notes & troubleshooting
 - Vector store is global by default (./doc_vectorstore). Repeated uploads append/merge; to avoid duplicates, use per-file subfolders or delete the folder before processing.
 - If you hit WinError 206 (path too long), use a venv at a short path (C:\venv\...) or enable long paths in Windows registry (requires admin + reboot).
 - If streamlit CLI not found, run via `python -m streamlit run app.py`.
 - Keep your GROQ API key secret.
+## Demo Video
