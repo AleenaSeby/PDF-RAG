@@ -50,12 +50,9 @@ python -m streamlit run "path\app.py"
 
 ## Notes & troubleshooting
 - Vector store is global by default (./doc_vectorstore). Repeated uploads append/merge; to avoid duplicates, use per-file subfolders or delete the folder before processing.
-- If you hit WinError 206 (path 
-
-https://github.com/user-attachments/assets/7c28ff9a-e35d-4ff0-9445-32bc361ec4e0
-
-too long), use a venv at a short path (C:\venv\...) or enable long paths in Windows registry (requires admin + reboot).
+- If you hit WinError 206 (path too long), use a venv at a short path (C:\venv\...) or enable long paths in Windows registry (requires admin + reboot).
 - If streamlit CLI not found, run via `python -m streamlit run app.py`.
 - Keep your GROQ API key secret.
 
 ## Demo Video
+https://github.com/user-attachments/assets/7c28ff9a-e35d-4ff0-9445-32bc361ec4e0
